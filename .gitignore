@@ -1,8 +1,5 @@
 !.gitignore
-app/dist
 cache
-.parcel-cache
 .cache
 node_modules
-artifacts
 .env
