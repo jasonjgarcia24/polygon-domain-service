@@ -1,6 +1,5 @@
 !.gitignore
 app/dist
-app/artifacts
 cache
 .parcel-cache
 .cache
