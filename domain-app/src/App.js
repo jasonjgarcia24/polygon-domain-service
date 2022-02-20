@@ -3,7 +3,7 @@ import './styles/App.css';
 import twitterLogo from './assets/twitter-logo.svg';
 import polygonLogo from './assets/polygonlogo.png';
 import ethLogo from './assets/ethlogo.png';
-import config from './config.js';
+import config from '../config.js';
 import { ethers } from 'ethers';
 import { networks } from './utils/networks';
 
