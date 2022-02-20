@@ -1,4 +1,4 @@
-import abi from '../artifacts/contracts/Domains.sol/Domains.json';
+import abi from './artifacts/contracts/Domains.sol/Domains.json';
 console.log(abi)
 
 const config = {
