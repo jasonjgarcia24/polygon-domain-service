@@ -1,0 +1,26 @@
+{
+  "name": "polygon-domain-service",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx hardhat run scripts/run.js",
+    "dev-hardhat": "npx hardhat run scripts/run.js --network hardhat",
+    "deploy": "npx hardhat run scripts/deploy.js --network mumbai"
+  },
+  "author": "JasonGarcia.eth",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "create-react-app": "^5.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
